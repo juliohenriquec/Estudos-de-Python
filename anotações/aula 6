@@ -1,0 +1,8 @@
+Tipos primitivos
+
+int() - numero inteiro
+float() - numero real
+bool() - True ou False
+str() - letras
+
+

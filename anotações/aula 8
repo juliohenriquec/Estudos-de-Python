@@ -1,0 +1,21 @@
+Bibiliotecas pythom
+
+math
+    ceil - arredonda pra cima
+    floor - arredonda pra cima
+    trunc - truncar o numero
+    pow - potencia
+    sqrt - raiz quadrada
+    factorial - fatorial
+
+para usar bibliotecas é preciso importa-las com import nome_da_biblioteca
+    ex: import math
+também é possivel importar uma uma função especifica
+ex: from math import ceil
+
+
+tarefas:
+
+
+
+Exercício Python 021: Faça um programa em Python que abra e reproduza o áudio de um arquivo MP3.

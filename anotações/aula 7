@@ -1,0 +1,17 @@
++ adição
+- subtração
+* multiplição
+/ divisão
+** Potencia
+// divisão inteira
+% resto da divisão
+
+Ordem de precedência
+
+1 : ()
+2 : **
+3 : * / // %
+5 : + -
+
+Para formatar número com varias casas decimais: {numero: .numero de casas desejado.f}
+                                                ex: {variável: .2f}
