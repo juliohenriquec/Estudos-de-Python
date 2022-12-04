@@ -28,10 +28,7 @@ in - verfica se existe palavras na frase
 
 tarefas
 
-Exercício Python 022: Crie um programa que leia o nome completo de uma pessoa e mostre:
-- O nome com todas as letras maiúsculas e minúsculas.
-- Quantas letras ao todo (sem considerar espaços).
-- Quantas letras tem o primeiro nome.
+
 Exercício Python 023: Faça um programa que leia um número de 0 a 9999 e mostre na tela cada um dos dígitos separados.
 Exercício Python 024: Crie um programa que leia o nome de uma cidade diga se ela começa ou não com o nome "SANTO".
 Exercício Python 025: Crie um programa que leia o nome de uma pessoa e diga se ela tem "SILVA" no nome.
