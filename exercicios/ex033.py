@@ -1,28 +1,21 @@
-n1 = int(input('Digite um número: '))
-n2 = int(input('Digite outro número: '))
-n3 = int(input('Digite mais um número: '))
-
-#checando o maior número
-if n1 > n2 and n1 > n3:
-    print(f'{n1} é o maior número ')
-
-if n2 > n1 and n2 > n3:
-    print(f'{n2} é o maior número ')
-
-if n3 > n2 and n3 > n1:
-    print(f'{n3} é o maior número')
-
-#checando o menor número
-if n1 < n2 and n1 < n3:
-    print(f'{n1} é o menor número ')
-
+n1 = int(input('Primeiro valor: '))
+n2 = int(input('Segundo valor: '))
+n3 = int(input('Terceiro valor: '))
+# Checando o menor número
+menor = n1
 if n2 < n1 and n2 < n3:
-    print(f'{n2} é o menor número ')
-
-if n3 < n2 and n3 < n1:
-    print(f'{n3} é o menor número')
-
-
+    menor = n2
+if n3 < n1 and n3 < n2:
+    menor = n3
+# Checando o maior número
+maior =n1
+if n2 > n1 and n2 > n3:
+    maior = n2
+if n3 > n1 and n3 > n2:
+    maior = n3
+# Dando as respostas
+print(f'O maior valor digitado foi {maior}')
+print(f'O menor valor digitado foi {menor}')
 
 
 

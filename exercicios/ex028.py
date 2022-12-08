@@ -1,9 +1,15 @@
-import random
-chute = int(input('Pensei em um número de 1 a 5, qual número eu pensei? '))
-lista = [1, 2, 3, 4, 5]
-num = random.choice(lista)
-print(f'Eu pensei no número {num}')
-if chute == num:
+from random import randint
+from time import sleep
+computador = randint(0, 5) # Sorteio o número
+print('=' * 20)
+print('Vou pensar num número entre 0 e 5. Tente adinvinhar... ')
+print('=' * 20)
+jogador = int(input('Em que número eu pensei? ')) # Jogador tenta adivinhar
+print('PROCESSANDO...')
+sleep(2)
+print(f'Eu pensei no número {computador}')
+if jogador == computador:
     print('Parabens, você acertou!')
 else:
     print('Voce errou!')
+
