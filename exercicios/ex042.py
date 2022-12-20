@@ -9,16 +9,15 @@ c = float(input('Seguimento C: '))
 TrianguloVerdade = (b + c > a) and (a + c > b) and (a + b > c)
 equilatero = a == b == c
 isosceles = a == b != c or a == c !=b or b == c != a
-escaleno = a != b !=c
+escaleno = a != b !=c != a
 
-if TrianguloVerdade and equilatero:
-    print('\033[32mSim, é possivel formar um triângulo com essas retas.\033[m')
-    print('\033[32mE ele é EQUILÁTERO.\033[m')
-elif TrianguloVerdade and isosceles:
-    print('\033[32mSim, é possivel formar um triângulo com essas retas.\033[m')
-    print('\033[32mE ele é ISÓSCELES.\033[m')
-elif TrianguloVerdade and escaleno:
-    print('\033[32mSim, é possivel formar um triângulo com essas retas.\033[m')
-    print('\033[32mE ele é ESCALENO.\033[m')
+if TrianguloVerdade:
+    print('\033[32mEssas retas podem formar um triângulo', end='')
+    if equilatero:
+        print(' EQUILÁTERO.')
+    elif escaleno:
+        print(' ESCALENO.')
+    else:
+        print(' ISÓSCELES.')
 else:
     print('\033[31mNão é possivel formar um triângulo com essas retas.\033[m')

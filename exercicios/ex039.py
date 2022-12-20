@@ -1,12 +1,18 @@
 from datetime import date
-ano = int(input('Em que ano você nasceu? '))
-idade = date.today().year - ano
-falta = 18 - idade
-passou = idade - 18
+atual = date.today().year
+nasc = int(input('Ano de nascimento: '))
+idade = atual - nasc
+print(f'Quem nasceu em {nasc} tem {idade} anos em {atual}')
 if idade == 18:
-    print('Você tem 18 anos. É a hora exata para você realizar seu alistamento militar.')
+    print('Você tem que se alistar IMEDIATAMENTE!')
 elif idade < 18:
-    print(f'Você tem {idade} anos. Ainda falta {falta} anos para você ter que realizar seu alistamento militar.')
+    saldo = 18 - idade
+    print(f'Você ainda não tem 18 anos. Ainda falta {saldo} anos para você se alistar.')
+    ano = atual + saldo
+    print(f'Seu alistamento será em {ano}')
 else:
-    print(f'Você tem {idade} anos. Se você não fez seu alistamento militar, corra para fazer pois você está {passou} anos atrasado.')
+    saldo = idade - 18
+    print(f'Você já deveria ter se alistado há {saldo} anos.')
+    ano = atual - saldo
+    print(f'Você deveria ter se alistado em {ano}')
 
