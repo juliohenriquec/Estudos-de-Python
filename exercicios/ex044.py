@@ -10,6 +10,7 @@ if pagamento == 1:
     print(f'Preço com 10% de desconto: R${valor}')
 elif pagamento == 2:
     valor = valor - valor*0.05
+    print(f'Preço com 5% de desconto: R${valor}')
 elif pagamento == 3:
     int(input('número de parcelas: '))
     print(f'Preço formal: R${valor}')
@@ -17,4 +18,5 @@ elif pagamento == 4:
     int(input('número de parcelas: '))
     valor = valor + valor*0.20
     print((f'Preço com 20% de juros: R${valor}'))
-    
+else:
+    print('Opção INVÁLIDA. Tente novamente.')
