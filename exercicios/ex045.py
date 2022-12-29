@@ -19,7 +19,7 @@ sleep(1)
 print('PAPEL')
 sleep(1)
 print('TESOURA!!!')
-
+sleep(1)
 
 print('-='*12)
 print(f'Computador jogou {itens[IA]}')
