@@ -11,7 +11,7 @@
  #  print(f'EU vou comer {lanche[cont]} na posição {cont}')
 
 #for pos, comida in enumerate (lanche):
-  #  print(f'Eu vou comer {comida} na posição {pos}')
+   #print(f'Eu vou comer {comida} na posição {pos}')
 
 #print('Comi demais!')
 
@@ -19,11 +19,16 @@
 #b = (5, 8, 1, 2)
 #c = b + a
 #print(c)
-##print(c.index(5,1))
-
-nome = str(input('Nome: '))
-idade = int(input('idade: '))
-sexo = str(input('Sexo[M/F]: '))
+#print(c.index(5, 1))
+#
+nome = str(input('Nome: ')) 
+idade = int(input('idade: ')) 
+sexo = str(input('Sexo[M/F]: ')) 
 peso = float(input('Peso: '))
-pesssoa = (nome, idade, sexo, peso)
+if sexo ==  "M":
+  sexo = "Masculino"
+elif sexo == "F":
+  sexo = "Feminino"
+  
+pesssoa = (f'{nome}, {idade} anos, {sexo}, {peso} KG') 
 print(pesssoa)
