@@ -1,0 +1,20 @@
+Análise e Desenvolvimento de Sistemas
+UC: Algoritmos e Programação
+Exercícios
+1. Escreva um programa que mostre na tela uma contagem regressiva de 10 a 0, com
+uma pausa de 1 segundo entre os números.
+2. Escreva um programa que calcule a soma dos números pares que estão no intervalo
+entre 1 até 100.
+3. Escreva um programa que mostre a tabuada de um número informado pelo usuário.
+4. Escreva um programa que leia seis números inteiros e mostre a soma apenas dos
+números ímpares.
+5. Escreva um programa que leia o primeiro termo e a razão de uma progressão
+aritmética (PA). Mostre os 15 primeiros termos dessa progressão.
+6. Escreva um programa que leia um número inteiro e mostre se ele é ou não um
+número primo.
+7. Escreva um programa que leia o ano de nascimento de 5 pessoas. Mostre quantas
+pessoas são maiores de idade e quantas ainda não atingiram a maioridade.
+8. Escreva um programa que leia 5 números e depois mostre qual o maior e menor
+número.
+9. Escreva um programa que leia a idade de 4 pessoas e depois mostre a média
+dessas idades
